@@ -137,6 +137,10 @@ PRODUCT_PACKAGES += \
     ebtables \
     ethertypes \
     libebtc
+    
+# Fingerprint
+PRODUCT_PACKAGES += \
+    fingerprintd
 
 # FM radio  
 PRODUCT_PACKAGES += \
