@@ -17,7 +17,7 @@
 $(call inherit-product, device/xiaomi/ugglite/full_ugglite.mk)
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/lineage/config/common.mk)
 
 PRODUCT_NAME := lineage_ugglite
 BOARD_VENDOR := Xiaomi
